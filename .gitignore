@@ -1,0 +1,95 @@
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+*.manifest
+*.spec
+
+# ------------------------------
+# Virtual Environments
+# ------------------------------
+venv/
+env/
+.venv/
+.personavenv/   # custom venv name if used
+streamlitvenv/
+personavenv/   # custom venv name if used
+
+
+# ------------------------------
+# Jupyter / IPython
+# ------------------------------
+.ipynb_checkpoints/
+*.ipynb
+
+# ------------------------------
+# Logs & Debug
+# ------------------------------
+*.log
+logs/
+*.out
+*.err
+.DS_Store
+
+# ------------------------------
+# Streamlit
+# ------------------------------
+.streamlit/secrets.toml   # contains sensitive keys
+.streamlit/config.toml    # local dev config
+.streamlit/
+
+# ------------------------------
+# Environment / Config
+# ------------------------------
+.env
+.env.*
+*.json
+*.yaml
+*.yml
+
+# ------------------------------
+# OS / IDE Files
+# ------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+*.iml
+
+# ------------------------------
+# Deployment
+# ------------------------------
+# Heroku / Streamlit Cloud / Docker
+*.sqlite3
+*.db
+*.pid
+*.bak
+
+# ------------------------------
+# Custom
+# ------------------------------
+# If you store checkpoints, weights, or model files locally
+*.pth
+*.pt
+*.h5
+checkpoints/
+models/

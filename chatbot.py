@@ -426,7 +426,7 @@ with container:
             try:
                 with st.spinner("BigB is Thinking...."):
                     response = client.chat.completions.create(
-                        model='gemini-1.5-flash-8b',
+                        model='gemini-2.5-flash-lite',
                         messages=st.session_state.messages,
                     )
                     ai_response = response.choices[0].message.content.strip()
